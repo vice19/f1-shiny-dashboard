@@ -1,0 +1,480 @@
+ClassifiedPosition,DriverNumber,Abbreviation,TeamName,TeamColor,Time,Status,Points,RoundNumber,EventName,GpSlug
+1,4,NOR,McLaren,FF8000,0 days 01:42:06.304000,Finished,25.0,1,Australian Grand Prix,melbourne
+2,1,VER,Red Bull Racing,3671C6,0 days 00:00:00.895000,Finished,18.0,1,Australian Grand Prix,melbourne
+3,63,RUS,Mercedes,27F4D2,0 days 00:00:08.481000,Finished,15.0,1,Australian Grand Prix,melbourne
+4,12,ANT,Mercedes,27F4D2,0 days 00:00:10.135000,Finished,12.0,1,Australian Grand Prix,melbourne
+5,23,ALB,Williams,64C4FF,0 days 00:00:12.773000,Finished,10.0,1,Australian Grand Prix,melbourne
+6,18,STR,Aston Martin,229971,0 days 00:00:17.413000,Finished,8.0,1,Australian Grand Prix,melbourne
+7,27,HUL,Kick Sauber,52E252,0 days 00:00:18.423000,Finished,6.0,1,Australian Grand Prix,melbourne
+8,16,LEC,Ferrari,E80020,0 days 00:00:19.826000,Finished,4.0,1,Australian Grand Prix,melbourne
+9,81,PIA,McLaren,FF8000,0 days 00:00:20.448000,Finished,2.0,1,Australian Grand Prix,melbourne
+10,44,HAM,Ferrari,E80020,0 days 00:00:22.473000,Finished,1.0,1,Australian Grand Prix,melbourne
+11,10,GAS,Alpine,0093CC,0 days 00:00:26.502000,Finished,0.0,1,Australian Grand Prix,melbourne
+12,22,TSU,Racing Bulls,6692FF,0 days 00:00:29.884000,Finished,0.0,1,Australian Grand Prix,melbourne
+13,31,OCO,Haas F1 Team,B6BABD,0 days 00:00:33.161000,Finished,0.0,1,Australian Grand Prix,melbourne
+14,87,BEA,Haas F1 Team,B6BABD,0 days 00:00:40.351000,Finished,0.0,1,Australian Grand Prix,melbourne
+R,30,LAW,Red Bull Racing,3671C6,,Retired,0.0,1,Australian Grand Prix,melbourne
+R,5,BOR,Kick Sauber,52E252,,Retired,0.0,1,Australian Grand Prix,melbourne
+R,14,ALO,Aston Martin,229971,,Retired,0.0,1,Australian Grand Prix,melbourne
+R,55,SAI,Williams,64C4FF,,Retired,0.0,1,Australian Grand Prix,melbourne
+R,7,DOO,Alpine,0093CC,,Retired,0.0,1,Australian Grand Prix,melbourne
+R,6,HAD,Racing Bulls,6692FF,,Retired,0.0,1,Australian Grand Prix,melbourne
+1,81,PIA,McLaren,FF8000,0 days 01:30:55.026000,Finished,25.0,2,Chinese Grand Prix,shanghai
+2,4,NOR,McLaren,FF8000,0 days 00:00:09.748000,Finished,18.0,2,Chinese Grand Prix,shanghai
+3,63,RUS,Mercedes,27F4D2,0 days 00:00:11.097000,Finished,15.0,2,Chinese Grand Prix,shanghai
+4,1,VER,Red Bull Racing,3671C6,0 days 00:00:16.656000,Finished,12.0,2,Chinese Grand Prix,shanghai
+5,31,OCO,Haas F1 Team,B6BABD,0 days 00:00:49.969000,Finished,10.0,2,Chinese Grand Prix,shanghai
+6,12,ANT,Mercedes,27F4D2,0 days 00:00:53.748000,Finished,8.0,2,Chinese Grand Prix,shanghai
+7,23,ALB,Williams,64C4FF,0 days 00:00:56.321000,Finished,6.0,2,Chinese Grand Prix,shanghai
+8,87,BEA,Haas F1 Team,B6BABD,0 days 00:01:01.303000,Finished,4.0,2,Chinese Grand Prix,shanghai
+9,18,STR,Aston Martin,229971,0 days 00:01:10.204000,Finished,2.0,2,Chinese Grand Prix,shanghai
+10,55,SAI,Williams,64C4FF,0 days 00:01:16.387000,Finished,1.0,2,Chinese Grand Prix,shanghai
+11,6,HAD,Racing Bulls,6692FF,0 days 00:01:18.875000,Finished,0.0,2,Chinese Grand Prix,shanghai
+12,30,LAW,Red Bull Racing,3671C6,0 days 00:01:21.147000,Finished,0.0,2,Chinese Grand Prix,shanghai
+13,7,DOO,Alpine,0093CC,0 days 00:01:28.401000,Finished,0.0,2,Chinese Grand Prix,shanghai
+14,5,BOR,Kick Sauber,52E252,0 days 00:00:10.756000,Lapped,0.0,2,Chinese Grand Prix,shanghai
+15,27,HUL,Kick Sauber,52E252,0 days 00:00:20.226000,Lapped,0.0,2,Chinese Grand Prix,shanghai
+16,22,TSU,Racing Bulls,6692FF,0 days 00:00:23.511000,Lapped,0.0,2,Chinese Grand Prix,shanghai
+R,14,ALO,Aston Martin,229971,,Retired,0.0,2,Chinese Grand Prix,shanghai
+D,16,LEC,Ferrari,E80020,,Disqualified,0.0,2,Chinese Grand Prix,shanghai
+D,44,HAM,Ferrari,E80020,,Disqualified,0.0,2,Chinese Grand Prix,shanghai
+D,10,GAS,Alpine,0093CC,,Disqualified,0.0,2,Chinese Grand Prix,shanghai
+1,1,VER,Red Bull Racing,3671C6,0 days 01:22:06.983000,Finished,25.0,3,Japanese Grand Prix,suzuka
+2,4,NOR,McLaren,FF8000,0 days 00:00:01.423000,Finished,18.0,3,Japanese Grand Prix,suzuka
+3,81,PIA,McLaren,FF8000,0 days 00:00:02.129000,Finished,15.0,3,Japanese Grand Prix,suzuka
+4,16,LEC,Ferrari,E80020,0 days 00:00:16.097000,Finished,12.0,3,Japanese Grand Prix,suzuka
+5,63,RUS,Mercedes,27F4D2,0 days 00:00:17.362000,Finished,10.0,3,Japanese Grand Prix,suzuka
+6,12,ANT,Mercedes,27F4D2,0 days 00:00:18.671000,Finished,8.0,3,Japanese Grand Prix,suzuka
+7,44,HAM,Ferrari,E80020,0 days 00:00:29.182000,Finished,6.0,3,Japanese Grand Prix,suzuka
+8,6,HAD,Racing Bulls,6692FF,0 days 00:00:37.134000,Finished,4.0,3,Japanese Grand Prix,suzuka
+9,23,ALB,Williams,64C4FF,0 days 00:00:40.367000,Finished,2.0,3,Japanese Grand Prix,suzuka
+10,87,BEA,Haas F1 Team,B6BABD,0 days 00:00:54.529000,Finished,1.0,3,Japanese Grand Prix,suzuka
+11,14,ALO,Aston Martin,229971,0 days 00:00:57.333000,Finished,0.0,3,Japanese Grand Prix,suzuka
+12,22,TSU,Red Bull Racing,3671C6,0 days 00:00:58.401000,Finished,0.0,3,Japanese Grand Prix,suzuka
+13,10,GAS,Alpine,0093CC,0 days 00:01:02.122000,Finished,0.0,3,Japanese Grand Prix,suzuka
+14,55,SAI,Williams,64C4FF,0 days 00:01:14.129000,Finished,0.0,3,Japanese Grand Prix,suzuka
+15,7,DOO,Alpine,0093CC,0 days 00:01:21.314000,Finished,0.0,3,Japanese Grand Prix,suzuka
+16,27,HUL,Kick Sauber,52E252,0 days 00:01:21.957000,Finished,0.0,3,Japanese Grand Prix,suzuka
+17,30,LAW,Racing Bulls,6692FF,0 days 00:01:22.734000,Finished,0.0,3,Japanese Grand Prix,suzuka
+18,31,OCO,Haas F1 Team,B6BABD,0 days 00:01:23.438000,Finished,0.0,3,Japanese Grand Prix,suzuka
+19,5,BOR,Kick Sauber,52E252,0 days 00:01:23.897000,Finished,0.0,3,Japanese Grand Prix,suzuka
+20,18,STR,Aston Martin,229971,0 days 00:00:12.929000,Lapped,0.0,3,Japanese Grand Prix,suzuka
+1,81,PIA,McLaren,FF8000,0 days 01:35:39.435000,Finished,25.0,4,Bahrain Grand Prix,sakhir
+2,63,RUS,Mercedes,27F4D2,0 days 00:00:15.499000,Finished,18.0,4,Bahrain Grand Prix,sakhir
+3,4,NOR,McLaren,FF8000,0 days 00:00:16.273000,Finished,15.0,4,Bahrain Grand Prix,sakhir
+4,16,LEC,Ferrari,E80020,0 days 00:00:19.679000,Finished,12.0,4,Bahrain Grand Prix,sakhir
+5,44,HAM,Ferrari,E80020,0 days 00:00:27.993000,Finished,10.0,4,Bahrain Grand Prix,sakhir
+6,1,VER,Red Bull Racing,3671C6,0 days 00:00:34.395000,Finished,8.0,4,Bahrain Grand Prix,sakhir
+7,10,GAS,Alpine,0093CC,0 days 00:00:36.002000,Finished,6.0,4,Bahrain Grand Prix,sakhir
+8,31,OCO,Haas F1 Team,B6BABD,0 days 00:00:44.244000,Finished,4.0,4,Bahrain Grand Prix,sakhir
+9,22,TSU,Red Bull Racing,3671C6,0 days 00:00:45.061000,Finished,2.0,4,Bahrain Grand Prix,sakhir
+10,87,BEA,Haas F1 Team,B6BABD,0 days 00:00:47.594000,Finished,1.0,4,Bahrain Grand Prix,sakhir
+11,12,ANT,Mercedes,27F4D2,0 days 00:00:48.016000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+12,23,ALB,Williams,64C4FF,0 days 00:00:48.839000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+13,6,HAD,Racing Bulls,6692FF,0 days 00:00:56.314000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+14,7,DOO,Alpine,0093CC,0 days 00:00:57.806000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+15,14,ALO,Aston Martin,229971,0 days 00:01:00.340000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+16,30,LAW,Racing Bulls,6692FF,0 days 00:01:04.435000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+17,18,STR,Aston Martin,229971,0 days 00:01:05.489000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+18,5,BOR,Kick Sauber,52E252,0 days 00:01:06.872000,Finished,0.0,4,Bahrain Grand Prix,sakhir
+R,55,SAI,Williams,64C4FF,,Retired,0.0,4,Bahrain Grand Prix,sakhir
+D,27,HUL,Kick Sauber,52E252,,Disqualified,0.0,4,Bahrain Grand Prix,sakhir
+1,81,PIA,McLaren,FF8000,0 days 01:21:06.758000,Finished,25.0,5,Saudi Arabian Grand Prix,jeddah
+2,1,VER,Red Bull Racing,3671C6,0 days 00:00:02.843000,Finished,18.0,5,Saudi Arabian Grand Prix,jeddah
+3,16,LEC,Ferrari,E80020,0 days 00:00:08.104000,Finished,15.0,5,Saudi Arabian Grand Prix,jeddah
+4,4,NOR,McLaren,FF8000,0 days 00:00:09.196000,Finished,12.0,5,Saudi Arabian Grand Prix,jeddah
+5,63,RUS,Mercedes,27F4D2,0 days 00:00:27.236000,Finished,10.0,5,Saudi Arabian Grand Prix,jeddah
+6,12,ANT,Mercedes,27F4D2,0 days 00:00:34.688000,Finished,8.0,5,Saudi Arabian Grand Prix,jeddah
+7,44,HAM,Ferrari,E80020,0 days 00:00:39.073000,Finished,6.0,5,Saudi Arabian Grand Prix,jeddah
+8,55,SAI,Williams,64C4FF,0 days 00:01:04.630000,Finished,4.0,5,Saudi Arabian Grand Prix,jeddah
+9,23,ALB,Williams,64C4FF,0 days 00:01:06.515000,Finished,2.0,5,Saudi Arabian Grand Prix,jeddah
+10,6,HAD,Racing Bulls,6692FF,0 days 00:01:07.091000,Finished,1.0,5,Saudi Arabian Grand Prix,jeddah
+11,14,ALO,Aston Martin,229971,0 days 00:01:15.917000,Finished,0.0,5,Saudi Arabian Grand Prix,jeddah
+12,30,LAW,Racing Bulls,6692FF,0 days 00:01:18.451000,Finished,0.0,5,Saudi Arabian Grand Prix,jeddah
+13,87,BEA,Haas F1 Team,B6BABD,0 days 00:01:19.194000,Finished,0.0,5,Saudi Arabian Grand Prix,jeddah
+14,31,OCO,Haas F1 Team,B6BABD,0 days 00:01:39.723000,Finished,0.0,5,Saudi Arabian Grand Prix,jeddah
+15,27,HUL,Kick Sauber,52E252,0 days 00:00:04.609000,Lapped,0.0,5,Saudi Arabian Grand Prix,jeddah
+16,18,STR,Aston Martin,229971,0 days 00:00:05.527000,Lapped,0.0,5,Saudi Arabian Grand Prix,jeddah
+17,7,DOO,Alpine,0093CC,0 days 00:00:19.264000,Lapped,0.0,5,Saudi Arabian Grand Prix,jeddah
+18,5,BOR,Kick Sauber,52E252,0 days 00:00:19.306000,Lapped,0.0,5,Saudi Arabian Grand Prix,jeddah
+R,22,TSU,Red Bull Racing,3671C6,,Retired,0.0,5,Saudi Arabian Grand Prix,jeddah
+R,10,GAS,Alpine,0093CC,,Retired,0.0,5,Saudi Arabian Grand Prix,jeddah
+1,81,PIA,McLaren,FF8000,0 days 01:28:51.587000,Finished,25.0,6,Miami Grand Prix,miami_gardens
+2,4,NOR,McLaren,FF8000,0 days 00:00:04.630000,Finished,18.0,6,Miami Grand Prix,miami_gardens
+3,63,RUS,Mercedes,27F4D2,0 days 00:00:37.644000,Finished,15.0,6,Miami Grand Prix,miami_gardens
+4,1,VER,Red Bull Racing,3671C6,0 days 00:00:39.956000,Finished,12.0,6,Miami Grand Prix,miami_gardens
+5,23,ALB,Williams,64C4FF,0 days 00:00:48.067000,Finished,10.0,6,Miami Grand Prix,miami_gardens
+6,12,ANT,Mercedes,27F4D2,0 days 00:00:55.502000,Finished,8.0,6,Miami Grand Prix,miami_gardens
+7,16,LEC,Ferrari,E80020,0 days 00:00:57.036000,Finished,6.0,6,Miami Grand Prix,miami_gardens
+8,44,HAM,Ferrari,E80020,0 days 00:01:00.186000,Finished,4.0,6,Miami Grand Prix,miami_gardens
+9,55,SAI,Williams,64C4FF,0 days 00:01:00.577000,Finished,2.0,6,Miami Grand Prix,miami_gardens
+10,22,TSU,Red Bull Racing,3671C6,0 days 00:01:14.434000,Finished,1.0,6,Miami Grand Prix,miami_gardens
+11,6,HAD,Racing Bulls,6692FF,0 days 00:01:14.602000,Finished,0.0,6,Miami Grand Prix,miami_gardens
+12,31,OCO,Haas F1 Team,B6BABD,0 days 00:01:22.006000,Finished,0.0,6,Miami Grand Prix,miami_gardens
+13,10,GAS,Alpine,0093CC,0 days 00:01:30.445000,Finished,0.0,6,Miami Grand Prix,miami_gardens
+14,27,HUL,Kick Sauber,52E252,0 days 00:00:01.155000,Lapped,0.0,6,Miami Grand Prix,miami_gardens
+15,14,ALO,Aston Martin,229971,0 days 00:00:20.979000,Lapped,0.0,6,Miami Grand Prix,miami_gardens
+16,18,STR,Aston Martin,229971,0 days 00:00:25.162000,Lapped,0.0,6,Miami Grand Prix,miami_gardens
+R,30,LAW,Racing Bulls,6692FF,,Retired,0.0,6,Miami Grand Prix,miami_gardens
+R,5,BOR,Kick Sauber,52E252,,Retired,0.0,6,Miami Grand Prix,miami_gardens
+R,87,BEA,Haas F1 Team,B6BABD,,Retired,0.0,6,Miami Grand Prix,miami_gardens
+R,7,DOO,Alpine,0093CC,,Retired,0.0,6,Miami Grand Prix,miami_gardens
+1,1,VER,Red Bull Racing,3671C6,0 days 01:31:33.199000,Finished,25.0,7,Emilia Romagna Grand Prix,imola
+2,4,NOR,McLaren,FF8000,0 days 00:00:06.109000,Finished,18.0,7,Emilia Romagna Grand Prix,imola
+3,81,PIA,McLaren,FF8000,0 days 00:00:12.956000,Finished,15.0,7,Emilia Romagna Grand Prix,imola
+4,44,HAM,Ferrari,E80020,0 days 00:00:14.356000,Finished,12.0,7,Emilia Romagna Grand Prix,imola
+5,23,ALB,Williams,64C4FF,0 days 00:00:17.945000,Finished,10.0,7,Emilia Romagna Grand Prix,imola
+6,16,LEC,Ferrari,E80020,0 days 00:00:20.774000,Finished,8.0,7,Emilia Romagna Grand Prix,imola
+7,63,RUS,Mercedes,27F4D2,0 days 00:00:22.034000,Finished,6.0,7,Emilia Romagna Grand Prix,imola
+8,55,SAI,Williams,64C4FF,0 days 00:00:22.898000,Finished,4.0,7,Emilia Romagna Grand Prix,imola
+9,6,HAD,Racing Bulls,6692FF,0 days 00:00:23.586000,Finished,2.0,7,Emilia Romagna Grand Prix,imola
+10,22,TSU,Red Bull Racing,3671C6,0 days 00:00:26.446000,Finished,1.0,7,Emilia Romagna Grand Prix,imola
+11,14,ALO,Aston Martin,229971,0 days 00:00:27.250000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+12,27,HUL,Kick Sauber,52E252,0 days 00:00:30.296000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+13,10,GAS,Alpine,0093CC,0 days 00:00:31.424000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+14,30,LAW,Racing Bulls,6692FF,0 days 00:00:32.511000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+15,18,STR,Aston Martin,229971,0 days 00:00:32.993000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+16,43,COL,Alpine,0093CC,0 days 00:00:33.411000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+17,87,BEA,Haas F1 Team,B6BABD,0 days 00:00:33.808000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+18,5,BOR,Kick Sauber,52E252,0 days 00:00:38.572000,Finished,0.0,7,Emilia Romagna Grand Prix,imola
+R,12,ANT,Mercedes,27F4D2,,Retired,0.0,7,Emilia Romagna Grand Prix,imola
+R,31,OCO,Haas F1 Team,B6BABD,,Retired,0.0,7,Emilia Romagna Grand Prix,imola
+1,4,NOR,McLaren,F47600,0 days 01:40:33.843000,Finished,25.0,8,Monaco Grand Prix,monaco
+2,16,LEC,Ferrari,ED1131,0 days 00:00:03.131000,Finished,18.0,8,Monaco Grand Prix,monaco
+3,81,PIA,McLaren,F47600,0 days 00:00:03.658000,Finished,15.0,8,Monaco Grand Prix,monaco
+4,1,VER,Red Bull Racing,4781D7,0 days 00:00:20.572000,Finished,12.0,8,Monaco Grand Prix,monaco
+5,44,HAM,Ferrari,ED1131,0 days 00:00:51.387000,Finished,10.0,8,Monaco Grand Prix,monaco
+6,6,HAD,Racing Bulls,6C98FF,0 days 00:01:05.082000,Lapped,8.0,8,Monaco Grand Prix,monaco
+7,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:06.029000,Lapped,6.0,8,Monaco Grand Prix,monaco
+8,30,LAW,Racing Bulls,6C98FF,0 days 00:01:06.746000,Lapped,4.0,8,Monaco Grand Prix,monaco
+9,23,ALB,Williams,1868DB,0 days 00:00:11.869000,Lapped,2.0,8,Monaco Grand Prix,monaco
+10,55,SAI,Williams,1868DB,0 days 00:00:15.232000,Lapped,1.0,8,Monaco Grand Prix,monaco
+11,63,RUS,Mercedes,00D7B6,0 days 00:00:33.844000,Lapped,0.0,8,Monaco Grand Prix,monaco
+12,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:54.693000,Lapped,0.0,8,Monaco Grand Prix,monaco
+13,43,COL,Alpine,00A1E8,0 days 00:00:57.114000,Lapped,0.0,8,Monaco Grand Prix,monaco
+14,5,BOR,Kick Sauber,01C00E,0 days 00:01:08.424000,Lapped,0.0,8,Monaco Grand Prix,monaco
+15,18,STR,Aston Martin,229971,0 days 00:01:10.395000,Lapped,0.0,8,Monaco Grand Prix,monaco
+16,27,HUL,Kick Sauber,01C00E,0 days 00:01:11.544000,Lapped,0.0,8,Monaco Grand Prix,monaco
+17,22,TSU,Red Bull Racing,4781D7,0 days 00:01:11.849000,Lapped,0.0,8,Monaco Grand Prix,monaco
+18,12,ANT,Mercedes,00D7B6,0 days 00:00:08.409000,Lapped,0.0,8,Monaco Grand Prix,monaco
+R,14,ALO,Aston Martin,229971,,Retired,0.0,8,Monaco Grand Prix,monaco
+R,10,GAS,Alpine,00A1E8,,Retired,0.0,8,Monaco Grand Prix,monaco
+1,81,PIA,McLaren,F47600,0 days 01:32:57.375000,Finished,25.0,9,Spanish Grand Prix,barcelona
+2,4,NOR,McLaren,F47600,0 days 00:00:02.471000,Finished,18.0,9,Spanish Grand Prix,barcelona
+3,16,LEC,Ferrari,ED1131,0 days 00:00:10.455000,Finished,15.0,9,Spanish Grand Prix,barcelona
+4,63,RUS,Mercedes,00D7B6,0 days 00:00:11.359000,Finished,12.0,9,Spanish Grand Prix,barcelona
+5,27,HUL,Kick Sauber,01C00E,0 days 00:00:13.648000,Finished,10.0,9,Spanish Grand Prix,barcelona
+6,44,HAM,Ferrari,ED1131,0 days 00:00:15.508000,Finished,8.0,9,Spanish Grand Prix,barcelona
+7,6,HAD,Racing Bulls,6C98FF,0 days 00:00:16.022000,Finished,6.0,9,Spanish Grand Prix,barcelona
+8,10,GAS,Alpine,00A1E8,0 days 00:00:17.882000,Finished,4.0,9,Spanish Grand Prix,barcelona
+9,14,ALO,Aston Martin,229971,0 days 00:00:21.564000,Finished,2.0,9,Spanish Grand Prix,barcelona
+10,1,VER,Red Bull Racing,4781D7,0 days 00:00:21.826000,Finished,1.0,9,Spanish Grand Prix,barcelona
+11,30,LAW,Racing Bulls,6C98FF,0 days 00:00:25.532000,Finished,0.0,9,Spanish Grand Prix,barcelona
+12,5,BOR,Kick Sauber,01C00E,0 days 00:00:25.996000,Finished,0.0,9,Spanish Grand Prix,barcelona
+13,22,TSU,Red Bull Racing,4781D7,0 days 00:00:28.822000,Finished,0.0,9,Spanish Grand Prix,barcelona
+14,55,SAI,Williams,1868DB,0 days 00:00:29.309000,Finished,0.0,9,Spanish Grand Prix,barcelona
+15,43,COL,Alpine,00A1E8,0 days 00:00:31.381000,Finished,0.0,9,Spanish Grand Prix,barcelona
+16,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:32.197000,Finished,0.0,9,Spanish Grand Prix,barcelona
+17,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:37.065000,Finished,0.0,9,Spanish Grand Prix,barcelona
+R,12,ANT,Mercedes,00D7B6,,Retired,0.0,9,Spanish Grand Prix,barcelona
+R,23,ALB,Williams,1868DB,,Retired,0.0,9,Spanish Grand Prix,barcelona
+1,63,RUS,Mercedes,00D7B6,0 days 01:31:52.688000,Finished,25.0,10,Canadian Grand Prix,montréal
+2,1,VER,Red Bull Racing,4781D7,0 days 00:00:00.228000,Finished,18.0,10,Canadian Grand Prix,montréal
+3,12,ANT,Mercedes,00D7B6,0 days 00:00:01.014000,Finished,15.0,10,Canadian Grand Prix,montréal
+4,81,PIA,McLaren,F47600,0 days 00:00:02.109000,Finished,12.0,10,Canadian Grand Prix,montréal
+5,16,LEC,Ferrari,ED1131,0 days 00:00:03.442000,Finished,10.0,10,Canadian Grand Prix,montréal
+6,44,HAM,Ferrari,ED1131,0 days 00:00:10.713000,Finished,8.0,10,Canadian Grand Prix,montréal
+7,14,ALO,Aston Martin,229971,0 days 00:00:10.972000,Finished,6.0,10,Canadian Grand Prix,montréal
+8,27,HUL,Kick Sauber,01C00E,0 days 00:00:15.364000,Finished,4.0,10,Canadian Grand Prix,montréal
+9,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:01.473000,Lapped,2.0,10,Canadian Grand Prix,montréal
+10,55,SAI,Williams,1868DB,0 days 00:00:01.886000,Lapped,1.0,10,Canadian Grand Prix,montréal
+11,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:03.717000,Lapped,0.0,10,Canadian Grand Prix,montréal
+12,22,TSU,Red Bull Racing,4781D7,0 days 00:00:05.456000,Lapped,0.0,10,Canadian Grand Prix,montréal
+13,43,COL,Alpine,00A1E8,0 days 00:00:07.018000,Lapped,0.0,10,Canadian Grand Prix,montréal
+14,5,BOR,Kick Sauber,01C00E,0 days 00:00:07.879000,Lapped,0.0,10,Canadian Grand Prix,montréal
+15,10,GAS,Alpine,00A1E8,0 days 00:00:07.950000,Lapped,0.0,10,Canadian Grand Prix,montréal
+16,6,HAD,Racing Bulls,6C98FF,0 days 00:00:08.737000,Lapped,0.0,10,Canadian Grand Prix,montréal
+17,18,STR,Aston Martin,229971,0 days 00:00:09.063000,Lapped,0.0,10,Canadian Grand Prix,montréal
+18,4,NOR,McLaren,F47600,,Retired,0.0,10,Canadian Grand Prix,montréal
+R,30,LAW,Racing Bulls,6C98FF,,Retired,0.0,10,Canadian Grand Prix,montréal
+R,23,ALB,Williams,1868DB,,Retired,0.0,10,Canadian Grand Prix,montréal
+1,4,NOR,McLaren,F47600,0 days 01:23:47.693000,Finished,25.0,11,Austrian Grand Prix,spielberg
+2,81,PIA,McLaren,F47600,0 days 00:00:02.695000,Finished,18.0,11,Austrian Grand Prix,spielberg
+3,16,LEC,Ferrari,ED1131,0 days 00:00:19.820000,Finished,15.0,11,Austrian Grand Prix,spielberg
+4,44,HAM,Ferrari,ED1131,0 days 00:00:29.020000,Finished,12.0,11,Austrian Grand Prix,spielberg
+5,63,RUS,Mercedes,00D7B6,0 days 00:01:02.396000,Finished,10.0,11,Austrian Grand Prix,spielberg
+6,30,LAW,Racing Bulls,6C98FF,0 days 00:01:07.754000,Finished,8.0,11,Austrian Grand Prix,spielberg
+7,14,ALO,Aston Martin,229971,0 days 00:00:01.437000,Lapped,6.0,11,Austrian Grand Prix,spielberg
+8,5,BOR,Kick Sauber,01C00E,0 days 00:00:01.952000,Lapped,4.0,11,Austrian Grand Prix,spielberg
+9,27,HUL,Kick Sauber,01C00E,0 days 00:00:07.720000,Lapped,2.0,11,Austrian Grand Prix,spielberg
+10,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:09.986000,Lapped,1.0,11,Austrian Grand Prix,spielberg
+11,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:24.854000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+12,6,HAD,Racing Bulls,6C98FF,0 days 00:00:27.957000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+13,10,GAS,Alpine,00A1E8,0 days 00:00:33.055000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+14,18,STR,Aston Martin,229971,0 days 00:00:34.462000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+15,43,COL,Alpine,00A1E8,0 days 00:00:42.692000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+16,22,TSU,Red Bull Racing,4781D7,0 days 00:00:02.979000,Lapped,0.0,11,Austrian Grand Prix,spielberg
+R,23,ALB,Williams,1868DB,,Retired,0.0,11,Austrian Grand Prix,spielberg
+R,1,VER,Red Bull Racing,4781D7,,Retired,0.0,11,Austrian Grand Prix,spielberg
+R,12,ANT,Mercedes,00D7B6,,Retired,0.0,11,Austrian Grand Prix,spielberg
+W,55,SAI,Williams,1868DB,,Did not start,0.0,11,Austrian Grand Prix,spielberg
+1,4,NOR,McLaren,F47600,0 days 01:37:15.735000,Finished,25.0,12,British Grand Prix,silverstone
+2,81,PIA,McLaren,F47600,0 days 00:00:06.812000,Finished,18.0,12,British Grand Prix,silverstone
+3,27,HUL,Kick Sauber,01C00E,0 days 00:00:34.742000,Finished,15.0,12,British Grand Prix,silverstone
+4,44,HAM,Ferrari,ED1131,0 days 00:00:39.812000,Finished,12.0,12,British Grand Prix,silverstone
+5,1,VER,Red Bull Racing,4781D7,0 days 00:00:56.781000,Finished,10.0,12,British Grand Prix,silverstone
+6,10,GAS,Alpine,00A1E8,0 days 00:00:59.857000,Finished,8.0,12,British Grand Prix,silverstone
+7,18,STR,Aston Martin,229971,0 days 00:01:00.603000,Finished,6.0,12,British Grand Prix,silverstone
+8,23,ALB,Williams,1868DB,0 days 00:01:04.135000,Finished,4.0,12,British Grand Prix,silverstone
+9,14,ALO,Aston Martin,229971,0 days 00:01:05.858000,Finished,2.0,12,British Grand Prix,silverstone
+10,63,RUS,Mercedes,00D7B6,0 days 00:01:10.674000,Finished,1.0,12,British Grand Prix,silverstone
+11,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:12.095000,Finished,0.0,12,British Grand Prix,silverstone
+12,55,SAI,Williams,1868DB,0 days 00:01:16.592000,Finished,0.0,12,British Grand Prix,silverstone
+13,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:17.301000,Finished,0.0,12,British Grand Prix,silverstone
+14,16,LEC,Ferrari,ED1131,0 days 00:01:24.477000,Finished,0.0,12,British Grand Prix,silverstone
+15,22,TSU,Red Bull Racing,4781D7,0 days 00:00:32.250000,Lapped,0.0,12,British Grand Prix,silverstone
+R,12,ANT,Mercedes,00D7B6,,Retired,0.0,12,British Grand Prix,silverstone
+R,6,HAD,Racing Bulls,6C98FF,,Retired,0.0,12,British Grand Prix,silverstone
+R,5,BOR,Kick Sauber,01C00E,,Retired,0.0,12,British Grand Prix,silverstone
+R,30,LAW,Racing Bulls,6C98FF,,Retired,0.0,12,British Grand Prix,silverstone
+W,43,COL,Alpine,00A1E8,,Did not start,0.0,12,British Grand Prix,silverstone
+1,81,PIA,McLaren,F47600,0 days 01:25:22.601000,Finished,25.0,13,Belgian Grand Prix,spa-francorchamps
+2,4,NOR,McLaren,F47600,0 days 00:00:03.415000,Finished,18.0,13,Belgian Grand Prix,spa-francorchamps
+3,16,LEC,Ferrari,ED1131,0 days 00:00:20.185000,Finished,15.0,13,Belgian Grand Prix,spa-francorchamps
+4,1,VER,Red Bull Racing,4781D7,0 days 00:00:21.731000,Finished,12.0,13,Belgian Grand Prix,spa-francorchamps
+5,63,RUS,Mercedes,00D7B6,0 days 00:00:34.863000,Finished,10.0,13,Belgian Grand Prix,spa-francorchamps
+6,23,ALB,Williams,1868DB,0 days 00:00:39.926000,Finished,8.0,13,Belgian Grand Prix,spa-francorchamps
+7,44,HAM,Ferrari,ED1131,0 days 00:00:40.679000,Finished,6.0,13,Belgian Grand Prix,spa-francorchamps
+8,30,LAW,Racing Bulls,6C98FF,0 days 00:00:52.033000,Finished,4.0,13,Belgian Grand Prix,spa-francorchamps
+9,5,BOR,Kick Sauber,01C00E,0 days 00:00:56.434000,Finished,2.0,13,Belgian Grand Prix,spa-francorchamps
+10,10,GAS,Alpine,00A1E8,0 days 00:01:12.714000,Finished,1.0,13,Belgian Grand Prix,spa-francorchamps
+11,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:13.145000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+12,27,HUL,Kick Sauber,01C00E,0 days 00:01:13.628000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+13,22,TSU,Red Bull Racing,4781D7,0 days 00:01:15.395000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+14,18,STR,Aston Martin,229971,0 days 00:01:19.831000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+15,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:26.063000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+16,12,ANT,Mercedes,00D7B6,0 days 00:01:26.721000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+17,14,ALO,Aston Martin,229971,0 days 00:01:27.924000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+18,55,SAI,Williams,1868DB,0 days 00:01:32.024000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+19,43,COL,Alpine,00A1E8,0 days 00:01:35.250000,Finished,0.0,13,Belgian Grand Prix,spa-francorchamps
+20,6,HAD,Racing Bulls,6C98FF,0 days 00:00:12.942000,Lapped,0.0,13,Belgian Grand Prix,spa-francorchamps
+1,4,NOR,McLaren,F47600,0 days 01:35:21.231000,Finished,25.0,14,Hungarian Grand Prix,budapest
+2,81,PIA,McLaren,F47600,0 days 00:00:00.698000,Finished,18.0,14,Hungarian Grand Prix,budapest
+3,63,RUS,Mercedes,00D7B6,0 days 00:00:21.916000,Finished,15.0,14,Hungarian Grand Prix,budapest
+4,16,LEC,Ferrari,ED1131,0 days 00:00:42.560000,Finished,12.0,14,Hungarian Grand Prix,budapest
+5,14,ALO,Aston Martin,229971,0 days 00:00:59.040000,Finished,10.0,14,Hungarian Grand Prix,budapest
+6,5,BOR,Kick Sauber,01C00E,0 days 00:01:06.169000,Finished,8.0,14,Hungarian Grand Prix,budapest
+7,18,STR,Aston Martin,229971,0 days 00:01:08.174000,Finished,6.0,14,Hungarian Grand Prix,budapest
+8,30,LAW,Racing Bulls,6C98FF,0 days 00:01:09.451000,Finished,4.0,14,Hungarian Grand Prix,budapest
+9,1,VER,Red Bull Racing,4781D7,0 days 00:01:12.645000,Finished,2.0,14,Hungarian Grand Prix,budapest
+10,12,ANT,Mercedes,00D7B6,0 days 00:00:07.649000,Lapped,1.0,14,Hungarian Grand Prix,budapest
+11,6,HAD,Racing Bulls,6C98FF,0 days 00:00:08.500000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+12,44,HAM,Ferrari,ED1131,0 days 00:00:09.861000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+13,27,HUL,Kick Sauber,01C00E,0 days 00:00:31.268000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+14,55,SAI,Williams,1868DB,0 days 00:00:33.326000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+15,23,ALB,Williams,1868DB,0 days 00:00:38.111000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+16,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:45.258000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+17,22,TSU,Red Bull Racing,4781D7,0 days 00:00:46.943000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+18,43,COL,Alpine,00A1E8,0 days 00:00:47.370000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+19,10,GAS,Alpine,00A1E8,0 days 00:00:56.344000,Lapped,0.0,14,Hungarian Grand Prix,budapest
+R,87,BEA,Haas F1 Team,9C9FA2,,Retired,0.0,14,Hungarian Grand Prix,budapest
+1,81,PIA,McLaren,F47600,0 days 01:38:29.849000,Finished,25.0,15,Dutch Grand Prix,zandvoort
+2,1,VER,Red Bull Racing,4781D7,0 days 00:00:01.271000,Finished,18.0,15,Dutch Grand Prix,zandvoort
+3,6,HAD,Racing Bulls,6C98FF,0 days 00:00:03.233000,Finished,15.0,15,Dutch Grand Prix,zandvoort
+4,63,RUS,Mercedes,00D7B6,0 days 00:00:05.654000,Finished,12.0,15,Dutch Grand Prix,zandvoort
+5,23,ALB,Williams,1868DB,0 days 00:00:06.327000,Finished,10.0,15,Dutch Grand Prix,zandvoort
+6,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:09.044000,Finished,8.0,15,Dutch Grand Prix,zandvoort
+7,18,STR,Aston Martin,229971,0 days 00:00:09.497000,Finished,6.0,15,Dutch Grand Prix,zandvoort
+8,14,ALO,Aston Martin,229971,0 days 00:00:11.709000,Finished,4.0,15,Dutch Grand Prix,zandvoort
+9,22,TSU,Red Bull Racing,4781D7,0 days 00:00:13.597000,Finished,2.0,15,Dutch Grand Prix,zandvoort
+10,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:14.063000,Finished,1.0,15,Dutch Grand Prix,zandvoort
+11,43,COL,Alpine,00A1E8,0 days 00:00:14.511000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+12,30,LAW,Racing Bulls,6C98FF,0 days 00:00:17.063000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+13,55,SAI,Williams,1868DB,0 days 00:00:17.376000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+14,27,HUL,Kick Sauber,01C00E,0 days 00:00:19.725000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+15,5,BOR,Kick Sauber,01C00E,0 days 00:00:21.565000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+16,12,ANT,Mercedes,00D7B6,0 days 00:00:22.029000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+17,10,GAS,Alpine,00A1E8,0 days 00:00:23.629000,Finished,0.0,15,Dutch Grand Prix,zandvoort
+18,4,NOR,McLaren,F47600,,Retired,0.0,15,Dutch Grand Prix,zandvoort
+R,16,LEC,Ferrari,ED1131,,Retired,0.0,15,Dutch Grand Prix,zandvoort
+R,44,HAM,Ferrari,ED1131,,Retired,0.0,15,Dutch Grand Prix,zandvoort
+1,1,VER,Red Bull Racing,4781D7,0 days 01:13:24.325000,Finished,25.0,16,Italian Grand Prix,monza
+2,4,NOR,McLaren,F47600,0 days 00:00:19.207000,Finished,18.0,16,Italian Grand Prix,monza
+3,81,PIA,McLaren,F47600,0 days 00:00:21.351000,Finished,15.0,16,Italian Grand Prix,monza
+4,16,LEC,Ferrari,ED1131,0 days 00:00:25.624000,Finished,12.0,16,Italian Grand Prix,monza
+5,63,RUS,Mercedes,00D7B6,0 days 00:00:32.881000,Finished,10.0,16,Italian Grand Prix,monza
+6,44,HAM,Ferrari,ED1131,0 days 00:00:37.449000,Finished,8.0,16,Italian Grand Prix,monza
+7,23,ALB,Williams,1868DB,0 days 00:00:50.537000,Finished,6.0,16,Italian Grand Prix,monza
+8,5,BOR,Kick Sauber,01C00E,0 days 00:00:58.484000,Finished,4.0,16,Italian Grand Prix,monza
+9,12,ANT,Mercedes,00D7B6,0 days 00:00:59.762000,Finished,2.0,16,Italian Grand Prix,monza
+10,6,HAD,Racing Bulls,6C98FF,0 days 00:01:03.891000,Finished,1.0,16,Italian Grand Prix,monza
+11,55,SAI,Williams,1868DB,0 days 00:01:04.469000,Finished,0.0,16,Italian Grand Prix,monza
+12,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:19.288000,Finished,0.0,16,Italian Grand Prix,monza
+13,22,TSU,Red Bull Racing,4781D7,0 days 00:01:20.701000,Finished,0.0,16,Italian Grand Prix,monza
+14,30,LAW,Racing Bulls,6C98FF,0 days 00:01:22.351000,Finished,0.0,16,Italian Grand Prix,monza
+15,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:02.135000,Lapped,0.0,16,Italian Grand Prix,monza
+16,10,GAS,Alpine,00A1E8,0 days 00:00:05.837000,Lapped,0.0,16,Italian Grand Prix,monza
+17,43,COL,Alpine,00A1E8,0 days 00:00:07.448000,Lapped,0.0,16,Italian Grand Prix,monza
+18,18,STR,Aston Martin,229971,0 days 00:00:09.301000,Lapped,0.0,16,Italian Grand Prix,monza
+R,14,ALO,Aston Martin,229971,,Retired,0.0,16,Italian Grand Prix,monza
+W,27,HUL,Kick Sauber,01C00E,,Did not start,0.0,16,Italian Grand Prix,monza
+1,1,VER,Red Bull Racing,4781D7,0 days 01:33:26.408000,Finished,25.0,17,Azerbaijan Grand Prix,baku
+2,63,RUS,Mercedes,00D7B6,0 days 00:00:14.609000,Finished,18.0,17,Azerbaijan Grand Prix,baku
+3,55,SAI,Williams,1868DB,0 days 00:00:19.199000,Finished,15.0,17,Azerbaijan Grand Prix,baku
+4,12,ANT,Mercedes,00D7B6,0 days 00:00:21.760000,Finished,12.0,17,Azerbaijan Grand Prix,baku
+5,30,LAW,Racing Bulls,6C98FF,0 days 00:00:33.290000,Finished,10.0,17,Azerbaijan Grand Prix,baku
+6,22,TSU,Red Bull Racing,4781D7,0 days 00:00:33.808000,Finished,8.0,17,Azerbaijan Grand Prix,baku
+7,4,NOR,McLaren,F47600,0 days 00:00:34.227000,Finished,6.0,17,Azerbaijan Grand Prix,baku
+8,44,HAM,Ferrari,ED1131,0 days 00:00:36.310000,Finished,4.0,17,Azerbaijan Grand Prix,baku
+9,16,LEC,Ferrari,ED1131,0 days 00:00:36.774000,Finished,2.0,17,Azerbaijan Grand Prix,baku
+10,6,HAD,Racing Bulls,6C98FF,0 days 00:00:38.982000,Finished,1.0,17,Azerbaijan Grand Prix,baku
+11,5,BOR,Kick Sauber,01C00E,0 days 00:01:07.606000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+12,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:08.262000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+13,23,ALB,Williams,1868DB,0 days 00:01:12.870000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+14,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:17.580000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+15,14,ALO,Aston Martin,229971,0 days 00:01:18.707000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+16,27,HUL,Kick Sauber,01C00E,0 days 00:01:20.237000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+17,18,STR,Aston Martin,229971,0 days 00:01:36.392000,Finished,0.0,17,Azerbaijan Grand Prix,baku
+18,10,GAS,Alpine,00A1E8,0 days 00:00:03.865000,Lapped,0.0,17,Azerbaijan Grand Prix,baku
+19,43,COL,Alpine,00A1E8,0 days 00:00:06.325000,Lapped,0.0,17,Azerbaijan Grand Prix,baku
+R,81,PIA,McLaren,F47600,,Retired,0.0,17,Azerbaijan Grand Prix,baku
+1,63,RUS,Mercedes,00D7B6,0 days 01:40:22.367000,Finished,25.0,18,Singapore Grand Prix,marina_bay
+2,1,VER,Red Bull Racing,4781D7,0 days 00:00:05.430000,Finished,18.0,18,Singapore Grand Prix,marina_bay
+3,4,NOR,McLaren,F47600,0 days 00:00:06.066000,Finished,15.0,18,Singapore Grand Prix,marina_bay
+4,81,PIA,McLaren,F47600,0 days 00:00:08.146000,Finished,12.0,18,Singapore Grand Prix,marina_bay
+5,12,ANT,Mercedes,00D7B6,0 days 00:00:33.681000,Finished,10.0,18,Singapore Grand Prix,marina_bay
+6,16,LEC,Ferrari,ED1131,0 days 00:00:45.996000,Finished,8.0,18,Singapore Grand Prix,marina_bay
+7,14,ALO,Aston Martin,229971,0 days 00:01:20.667000,Finished,6.0,18,Singapore Grand Prix,marina_bay
+8,44,HAM,Ferrari,ED1131,0 days 00:01:25.251000,Finished,4.0,18,Singapore Grand Prix,marina_bay
+9,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:33.527000,Finished,2.0,18,Singapore Grand Prix,marina_bay
+10,55,SAI,Williams,1868DB,0 days 00:00:10.754000,Lapped,1.0,18,Singapore Grand Prix,marina_bay
+11,6,HAD,Racing Bulls,6C98FF,0 days 00:00:17.335000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+12,22,TSU,Red Bull Racing,4781D7,0 days 00:00:19.269000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+13,18,STR,Aston Martin,229971,0 days 00:00:24.490000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+14,23,ALB,Williams,1868DB,0 days 00:00:25.320000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+15,30,LAW,Racing Bulls,6C98FF,0 days 00:00:27.145000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+16,43,COL,Alpine,00A1E8,0 days 00:00:42.890000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+17,5,BOR,Kick Sauber,01C00E,0 days 00:00:46.753000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+18,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:47.133000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+19,10,GAS,Alpine,00A1E8,0 days 00:00:47.461000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+20,27,HUL,Kick Sauber,01C00E,0 days 00:00:49.040000,Lapped,0.0,18,Singapore Grand Prix,marina_bay
+1,1,VER,Red Bull Racing,4781D7,0 days 01:34:00.161000,Finished,25.0,19,United States Grand Prix,austin
+2,4,NOR,McLaren,F47600,0 days 00:00:07.959000,Finished,18.0,19,United States Grand Prix,austin
+3,16,LEC,Ferrari,ED1131,0 days 00:00:15.373000,Finished,15.0,19,United States Grand Prix,austin
+4,44,HAM,Ferrari,ED1131,0 days 00:00:28.536000,Finished,12.0,19,United States Grand Prix,austin
+5,81,PIA,McLaren,F47600,0 days 00:00:29.678000,Finished,10.0,19,United States Grand Prix,austin
+6,63,RUS,Mercedes,00D7B6,0 days 00:00:33.456000,Finished,8.0,19,United States Grand Prix,austin
+7,22,TSU,Red Bull Racing,4781D7,0 days 00:00:52.714000,Finished,6.0,19,United States Grand Prix,austin
+8,27,HUL,Kick Sauber,01C00E,0 days 00:00:57.249000,Finished,4.0,19,United States Grand Prix,austin
+9,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:04.722000,Finished,2.0,19,United States Grand Prix,austin
+10,14,ALO,Aston Martin,229971,0 days 00:01:10.001000,Finished,1.0,19,United States Grand Prix,austin
+11,30,LAW,Racing Bulls,6C98FF,0 days 00:01:13.209000,Finished,0.0,19,United States Grand Prix,austin
+12,18,STR,Aston Martin,229971,0 days 00:01:14.778000,Finished,0.0,19,United States Grand Prix,austin
+13,12,ANT,Mercedes,00D7B6,0 days 00:01:15.746000,Finished,0.0,19,United States Grand Prix,austin
+14,23,ALB,Williams,1868DB,0 days 00:01:20,Finished,0.0,19,United States Grand Prix,austin
+15,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:23.043000,Finished,0.0,19,United States Grand Prix,austin
+16,6,HAD,Racing Bulls,6C98FF,0 days 00:01:32.807000,Finished,0.0,19,United States Grand Prix,austin
+17,43,COL,Alpine,00A1E8,0 days 00:00:02.307000,Lapped,0.0,19,United States Grand Prix,austin
+18,5,BOR,Kick Sauber,01C00E,0 days 00:00:03.557000,Lapped,0.0,19,United States Grand Prix,austin
+19,10,GAS,Alpine,00A1E8,0 days 00:00:06.155000,Lapped,0.0,19,United States Grand Prix,austin
+R,55,SAI,Williams,1868DB,,Retired,0.0,19,United States Grand Prix,austin
+1,4,NOR,McLaren,F47600,0 days 01:37:58.574000,Finished,25.0,20,Mexico City Grand Prix,mexico_city
+2,16,LEC,Ferrari,ED1131,0 days 00:00:30.324000,Finished,18.0,20,Mexico City Grand Prix,mexico_city
+3,1,VER,Red Bull Racing,4781D7,0 days 00:00:31.049000,Finished,15.0,20,Mexico City Grand Prix,mexico_city
+4,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:40.955000,Finished,12.0,20,Mexico City Grand Prix,mexico_city
+5,81,PIA,McLaren,F47600,0 days 00:00:42.065000,Finished,10.0,20,Mexico City Grand Prix,mexico_city
+6,12,ANT,Mercedes,00D7B6,0 days 00:00:47.837000,Finished,8.0,20,Mexico City Grand Prix,mexico_city
+7,63,RUS,Mercedes,00D7B6,0 days 00:00:50.287000,Finished,6.0,20,Mexico City Grand Prix,mexico_city
+8,44,HAM,Ferrari,ED1131,0 days 00:00:56.446000,Finished,4.0,20,Mexico City Grand Prix,mexico_city
+9,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:15.464000,Finished,2.0,20,Mexico City Grand Prix,mexico_city
+10,5,BOR,Kick Sauber,01C00E,0 days 00:01:16.863000,Finished,1.0,20,Mexico City Grand Prix,mexico_city
+11,22,TSU,Red Bull Racing,4781D7,0 days 00:01:19.048000,Finished,0.0,20,Mexico City Grand Prix,mexico_city
+12,23,ALB,Williams,1868DB,0 days 00:00:02.450000,Lapped,0.0,20,Mexico City Grand Prix,mexico_city
+13,6,HAD,Racing Bulls,6C98FF,0 days 00:00:06.656000,Lapped,0.0,20,Mexico City Grand Prix,mexico_city
+14,18,STR,Aston Martin,229971,0 days 00:00:07.035000,Lapped,0.0,20,Mexico City Grand Prix,mexico_city
+15,10,GAS,Alpine,00A1E8,0 days 00:00:44.080000,Lapped,0.0,20,Mexico City Grand Prix,mexico_city
+16,43,COL,Alpine,00A1E8,0 days 00:00:44.376000,Lapped,0.0,20,Mexico City Grand Prix,mexico_city
+17,55,SAI,Williams,1868DB,,Retired,0.0,20,Mexico City Grand Prix,mexico_city
+R,14,ALO,Aston Martin,229971,,Retired,0.0,20,Mexico City Grand Prix,mexico_city
+R,27,HUL,Kick Sauber,01C00E,,Retired,0.0,20,Mexico City Grand Prix,mexico_city
+R,30,LAW,Racing Bulls,6C98FF,,Retired,0.0,20,Mexico City Grand Prix,mexico_city
+1,4,NOR,McLaren,F47600,0 days 01:32:01.596000,Finished,25.0,21,São Paulo Grand Prix,são_paulo
+2,12,ANT,Mercedes,00D7B6,0 days 00:00:10.388000,Finished,18.0,21,São Paulo Grand Prix,são_paulo
+3,1,VER,Red Bull Racing,4781D7,0 days 00:00:10.750000,Finished,15.0,21,São Paulo Grand Prix,são_paulo
+4,63,RUS,Mercedes,00D7B6,0 days 00:00:15.267000,Finished,12.0,21,São Paulo Grand Prix,são_paulo
+5,81,PIA,McLaren,F47600,0 days 00:00:15.749000,Finished,10.0,21,São Paulo Grand Prix,são_paulo
+6,87,BEA,Haas F1 Team,9C9FA2,0 days 00:00:29.630000,Finished,8.0,21,São Paulo Grand Prix,são_paulo
+7,30,LAW,Racing Bulls,6C98FF,0 days 00:00:52.642000,Finished,6.0,21,São Paulo Grand Prix,são_paulo
+8,6,HAD,Racing Bulls,6C98FF,0 days 00:00:52.873000,Finished,4.0,21,São Paulo Grand Prix,são_paulo
+9,27,HUL,Kick Sauber,01C00E,0 days 00:00:53.324000,Finished,2.0,21,São Paulo Grand Prix,são_paulo
+10,10,GAS,Alpine,00A1E8,0 days 00:00:53.914000,Finished,1.0,21,São Paulo Grand Prix,são_paulo
+11,23,ALB,Williams,1868DB,0 days 00:00:54.184000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+12,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:54.696000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+13,55,SAI,Williams,1868DB,0 days 00:00:55.420000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+14,14,ALO,Aston Martin,229971,0 days 00:00:55.766000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+15,43,COL,Alpine,00A1E8,0 days 00:00:57.777000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+16,18,STR,Aston Martin,229971,0 days 00:00:58.247000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+17,22,TSU,Red Bull Racing,4781D7,0 days 00:01:09.176000,Finished,0.0,21,São Paulo Grand Prix,são_paulo
+R,44,HAM,Ferrari,ED1131,,Retired,0.0,21,São Paulo Grand Prix,são_paulo
+R,16,LEC,Ferrari,ED1131,,Retired,0.0,21,São Paulo Grand Prix,são_paulo
+R,5,BOR,Kick Sauber,01C00E,,Retired,0.0,21,São Paulo Grand Prix,são_paulo
+1,1,VER,Red Bull Racing,4781D7,0 days 01:21:08.429000,Finished,25.0,22,Las Vegas Grand Prix,las_vegas
+2,63,RUS,Mercedes,00D7B6,0 days 00:00:23.546000,Finished,18.0,22,Las Vegas Grand Prix,las_vegas
+3,12,ANT,Mercedes,00D7B6,0 days 00:00:30.488000,Finished,15.0,22,Las Vegas Grand Prix,las_vegas
+4,16,LEC,Ferrari,ED1131,0 days 00:00:30.678000,Finished,12.0,22,Las Vegas Grand Prix,las_vegas
+5,55,SAI,Williams,1868DB,0 days 00:00:34.924000,Finished,10.0,22,Las Vegas Grand Prix,las_vegas
+6,6,HAD,Racing Bulls,6C98FF,0 days 00:00:45.257000,Finished,8.0,22,Las Vegas Grand Prix,las_vegas
+7,27,HUL,Kick Sauber,01C00E,0 days 00:00:51.134000,Finished,6.0,22,Las Vegas Grand Prix,las_vegas
+8,44,HAM,Ferrari,ED1131,0 days 00:00:59.369000,Finished,4.0,22,Las Vegas Grand Prix,las_vegas
+9,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:00.635000,Finished,2.0,22,Las Vegas Grand Prix,las_vegas
+10,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:10.549000,Finished,1.0,22,Las Vegas Grand Prix,las_vegas
+11,14,ALO,Aston Martin,229971,0 days 00:01:25.308000,Finished,0.0,22,Las Vegas Grand Prix,las_vegas
+12,22,TSU,Red Bull Racing,4781D7,0 days 00:01:26.974000,Finished,0.0,22,Las Vegas Grand Prix,las_vegas
+13,10,GAS,Alpine,00A1E8,0 days 00:01:31.702000,Finished,0.0,22,Las Vegas Grand Prix,las_vegas
+14,30,LAW,Racing Bulls,6C98FF,0 days 00:00:03.291000,Lapped,0.0,22,Las Vegas Grand Prix,las_vegas
+15,43,COL,Alpine,00A1E8,0 days 00:00:10.459000,Lapped,0.0,22,Las Vegas Grand Prix,las_vegas
+R,23,ALB,Williams,1868DB,,Retired,0.0,22,Las Vegas Grand Prix,las_vegas
+R,5,BOR,Kick Sauber,01C00E,,Retired,0.0,22,Las Vegas Grand Prix,las_vegas
+R,18,STR,Aston Martin,229971,,Retired,0.0,22,Las Vegas Grand Prix,las_vegas
+D,4,NOR,McLaren,F47600,,Disqualified,0.0,22,Las Vegas Grand Prix,las_vegas
+D,81,PIA,McLaren,F47600,,Disqualified,0.0,22,Las Vegas Grand Prix,las_vegas
+1,1,VER,Red Bull Racing,4781D7,0 days 01:24:38.241000,Finished,25.0,23,Qatar Grand Prix,lusail
+2,81,PIA,McLaren,F47600,0 days 00:00:07.995000,Finished,18.0,23,Qatar Grand Prix,lusail
+3,55,SAI,Williams,1868DB,0 days 00:00:22.665000,Finished,15.0,23,Qatar Grand Prix,lusail
+4,4,NOR,McLaren,F47600,0 days 00:00:23.315000,Finished,12.0,23,Qatar Grand Prix,lusail
+5,12,ANT,Mercedes,00D7B6,0 days 00:00:28.317000,Finished,10.0,23,Qatar Grand Prix,lusail
+6,63,RUS,Mercedes,00D7B6,0 days 00:00:48.599000,Finished,8.0,23,Qatar Grand Prix,lusail
+7,14,ALO,Aston Martin,229971,0 days 00:00:54.045000,Finished,6.0,23,Qatar Grand Prix,lusail
+8,16,LEC,Ferrari,ED1131,0 days 00:00:56.785000,Finished,4.0,23,Qatar Grand Prix,lusail
+9,30,LAW,Racing Bulls,6C98FF,0 days 00:01:00.073000,Finished,2.0,23,Qatar Grand Prix,lusail
+10,22,TSU,Red Bull Racing,4781D7,0 days 00:01:01.770000,Finished,1.0,23,Qatar Grand Prix,lusail
+11,23,ALB,Williams,1868DB,0 days 00:01:06.931000,Finished,0.0,23,Qatar Grand Prix,lusail
+12,44,HAM,Ferrari,ED1131,0 days 00:01:17.730000,Finished,0.0,23,Qatar Grand Prix,lusail
+13,5,BOR,Kick Sauber,01C00E,0 days 00:01:24.812000,Finished,0.0,23,Qatar Grand Prix,lusail
+14,43,COL,Alpine,00A1E8,0 days 00:00:03.283000,Lapped,0.0,23,Qatar Grand Prix,lusail
+15,31,OCO,Haas F1 Team,9C9FA2,0 days 00:00:04.253000,Lapped,0.0,23,Qatar Grand Prix,lusail
+16,10,GAS,Alpine,00A1E8,0 days 00:00:04.941000,Lapped,0.0,23,Qatar Grand Prix,lusail
+17,18,STR,Aston Martin,229971,,Retired,0.0,23,Qatar Grand Prix,lusail
+18,6,HAD,Racing Bulls,6C98FF,,Retired,0.0,23,Qatar Grand Prix,lusail
+R,87,BEA,Haas F1 Team,9C9FA2,,Retired,0.0,23,Qatar Grand Prix,lusail
+R,27,HUL,Kick Sauber,01C00E,,Retired,0.0,23,Qatar Grand Prix,lusail
+1,1,VER,Red Bull Racing,4781D7,0 days 01:26:07.469000,Finished,25.0,24,Abu Dhabi Grand Prix,yas_island
+2,81,PIA,McLaren,F47600,0 days 00:00:12.594000,Finished,18.0,24,Abu Dhabi Grand Prix,yas_island
+3,4,NOR,McLaren,F47600,0 days 00:00:16.572000,Finished,15.0,24,Abu Dhabi Grand Prix,yas_island
+4,16,LEC,Ferrari,ED1131,0 days 00:00:23.279000,Finished,12.0,24,Abu Dhabi Grand Prix,yas_island
+5,63,RUS,Mercedes,00D7B6,0 days 00:00:48.563000,Finished,10.0,24,Abu Dhabi Grand Prix,yas_island
+6,14,ALO,Aston Martin,229971,0 days 00:01:07.562000,Finished,8.0,24,Abu Dhabi Grand Prix,yas_island
+7,31,OCO,Haas F1 Team,9C9FA2,0 days 00:01:09.876000,Finished,6.0,24,Abu Dhabi Grand Prix,yas_island
+8,44,HAM,Ferrari,ED1131,0 days 00:01:12.670000,Finished,4.0,24,Abu Dhabi Grand Prix,yas_island
+9,27,HUL,Kick Sauber,01C00E,0 days 00:01:19.014000,Finished,2.0,24,Abu Dhabi Grand Prix,yas_island
+10,18,STR,Aston Martin,229971,0 days 00:01:19.523000,Finished,1.0,24,Abu Dhabi Grand Prix,yas_island
+11,5,BOR,Kick Sauber,01C00E,0 days 00:01:21.043000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+12,87,BEA,Haas F1 Team,9C9FA2,0 days 00:01:21.166000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+13,55,SAI,Williams,1868DB,0 days 00:01:22.158000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+14,22,TSU,Red Bull Racing,4781D7,0 days 00:01:23.794000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+15,12,ANT,Mercedes,00D7B6,0 days 00:01:24.399000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+16,23,ALB,Williams,1868DB,0 days 00:01:30.327000,Finished,0.0,24,Abu Dhabi Grand Prix,yas_island
+17,6,HAD,Racing Bulls,6C98FF,0 days 00:00:01.327000,Lapped,0.0,24,Abu Dhabi Grand Prix,yas_island
+18,30,LAW,Racing Bulls,6C98FF,0 days 00:00:04.659000,Lapped,0.0,24,Abu Dhabi Grand Prix,yas_island
+19,10,GAS,Alpine,00A1E8,0 days 00:00:11.908000,Lapped,0.0,24,Abu Dhabi Grand Prix,yas_island
+20,43,COL,Alpine,00A1E8,0 days 00:00:14.003000,Lapped,0.0,24,Abu Dhabi Grand Prix,yas_island
