@@ -1,4 +1,3 @@
-setwd("C:/Users/filip/Desktop/UniPd/dataVisualizazion/app")
 library(readr)
 library(shiny)
 library(ggplot2)
