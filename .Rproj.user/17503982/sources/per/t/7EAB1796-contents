@@ -24,7 +24,7 @@ ui = fluidPage(
                        radioButtons("race_pace_kernel", "Choose the kernel:",
                                     choiceValues = c("gaussian", "rectangular", "custom"),
                                     choiceNames  = c("Gaussian (Normal)", "Rectangular", "Custom (|u| - Activity 8.1)")),
-                       sliderInput("bandwidth","Choose the bandwidth: ", min = 0.01, max = 100, value = 1, step = 0.1)
+                       sliderInput("bandwidth","Choose the bandwidth: ", min = 0.01, max = 10, value = 1, step = 0.1)
                        )
     )
   )
