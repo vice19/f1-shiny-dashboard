@@ -3,7 +3,7 @@
     "path": "C:/Users/filip/Desktop/UniPd/dataVisualizazion/app/server.R",
     "project_path": "server.R",
     "type": "r_source",
-    "hash": "266479205",
+    "hash": "1242327187",
     "contents": "",
     "dirty": false,
     "created": 1793303002980.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "9,27",
-        "scrollLine": "0"
+        "cursorPosition": "215,40",
+        "scrollLine": "203"
     },
     "folds": "",
-    "lastKnownWriteTime": 1793979306,
+    "lastKnownWriteTime": 1794243408,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1793979306332,
+    "last_content_update": 1794243408,
     "read_only": false,
     "read_only_alternatives": []
 }

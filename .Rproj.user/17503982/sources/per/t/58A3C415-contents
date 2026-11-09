@@ -176,25 +176,34 @@ server = function(input, output, session) {
   output$race_pace_plot = renderPlot({
     driver_result = selected_driver_data()
     lap_data      = driver_result$laps
-    normal_laps   = lap_data[lap_data$LapType == "Normal",]
     abbr          = driver_result$abbr
     driver_name   = driver_result$name
     team_color    = unname(team_color_by_abbr[abbr])
-    mean_time     = mean(normal_laps$LapTime_sec)
-    
-    x_vals = na.omit(normal_laps$LapTime_sec)
+
+    # 1. Clean sample (Normal only) vs Contaminated sample (All laps)
+    if (isTRUE(input$include_contamination)) {
+      selected_laps = lap_data
+    } else {
+      selected_laps = lap_data[lap_data$LapType == "Normal", ]
+    }
+
+    x_vals    = na.omit(selected_laps$LapTime_sec)
+    n         = length(x_vals)
+    mean_time = mean(x_vals)
+
+    # 2. Automatic bandwidth selector (SJ vs nrd0) multiplied by slider adjust
+    bw_method = if (!is.null(input$bw_method)) input$bw_method else "SJ"
+    base_bw   = if (bw_method == "SJ") bw.SJ(x_vals) else bw.nrd0(x_vals)
+    h         = input$bandwidth * base_bw
     
     if (input$race_pace_kernel == "custom") {
-      # Calcola bandwidth e griglia come in Activity 8.1
-      h = input$bandwidth * bw.SJ(x_vals)
       margin = 4 * h
       grid   = seq(min(x_vals) - margin, max(x_vals) + margin, length.out = 512)
       y_vals = kde_custom(x_vals, grid, h)
       
-      d = list(x = grid, y = y_vals) # stessa struttura di density()!
+      d = list(x = grid, y = y_vals)
     } else {
-      # "gaussian" o "rectangular" sono già inclusi in density()
-      d = density(x_vals, bw = "SJ", adjust = input$bandwidth, kernel = input$race_pace_kernel)
+      d = density(x_vals, bw = bw_method, adjust = input$bandwidth, kernel = input$race_pace_kernel)
     }
     
     plot(d$x, d$y,
@@ -203,9 +212,30 @@ server = function(input, output, session) {
          lwd  = 2,                        
          xlab = "Lap Time (sec)",         
          ylab = "Density",                
-         main = paste("Race Pace:", driver_name, "- Kernel:", input$race_pace_kernel)
+         main = paste0("Race Pace: ", driver_name,
+                       " | Kernel: ", input$race_pace_kernel,
+                       " | h = ", round(h, 2), "s (", bw_method, ")")
     )
-    polygon(d$x, d$y, col = team_color, border = "black")
+    # Usa adjustcolor() con trasparenza (0.4) così i singoli kernel sotto si vedono benissimo!
+    polygon(d$x, d$y, col = adjustcolor(team_color, alpha.f = 0.4), border = "black", lwd = 2)
+    
+    # --- TEACHING VIEW: Individual Kernel Contributions ---
+    if (input$show_individual_kernels) {
+      rug(x_vals, col = "black", lwd = 1.5) # mostra i singoli giri sull'asse X
+      
+      for (xi in x_vals) {
+        if (input$race_pace_kernel == "gaussian") {
+          k_y = dnorm(d$x, mean = xi, sd = h) / n
+        } else if (input$race_pace_kernel == "rectangular") {
+          scale = h / sqrt(1 / 3)
+          k_y   = ifelse(abs(d$x - xi) <= scale, 0.5 / scale, 0) / n
+        } else if (input$race_pace_kernel == "custom") {
+          scale = h / SIGMA_CUSTOM
+          k_y   = K_custom((d$x - xi) / scale) / (scale * n)
+        }
+        lines(d$x, k_y, col = adjustcolor("black", alpha.f = 0.35), lty = 2, lwd = 1)
+      }
+    }
     
   })
 }
