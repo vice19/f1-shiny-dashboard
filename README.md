@@ -1,8 +1,13 @@
 # 🏎️ 2025 Formula 1 Telemetry & Statistical Visualization Explorer
 
+[![Live Demo on Posit Connect Cloud](https://img.shields.io/badge/🚀_Live_App-Posit_Connect_Cloud-e10600?style=for-the-badge)](https://01a1b17b-fb15-3a53-b61a-bb8238083ff3.share.connect.posit.cloud/)
+
 An interactive **R Shiny** web application for exploring lap-by-lap telemetry, tyre strategies, non-parametric density estimation, outlier robustness, and **Simpson's Paradox** across the **2025 Formula 1 World Championship**.
 
 Developed for the **Data Visualization** course at the **University of Padua (UniPd)**.
+
+> 🌐 **Live Demo**: Try the application directly in your browser on Posit Connect Cloud:  
+> 👉 **[https://01a1b17b-fb15-3a53-b61a-bb8238083ff3.share.connect.posit.cloud/](https://01a1b17b-fb15-3a53-b61a-bb8238083ff3.share.connect.posit.cloud/)**
 
 ---
 
@@ -45,9 +50,9 @@ Developed for the **Data Visualization** course at the **University of Padua (Un
 
 ```text
 app/
-├── ui.R                          # Classic single-page Shiny UI layout
+├── ui.R                          # Main Shiny UI with live switcher (Classic UI <-> Pro Dashboard)
 ├── server.R                      # Core Shiny server logic, custom KDE, and plotting engine
-├── pro_ui/                       # Modern F1 Telemetry Dashboard UI (Tabbed interface)
+├── pro_ui/                       # Standalone Pro Dashboard UI subfolder
 │   ├── ui.R                      # Styled multi-tab dashboard with side-by-side controls
 │   └── server.R                  # Lightweight wrapper sourcing the main ../server.R
 ├── downloadAllRaces.py           # Python script (FastF1) to download & build season CSVs
@@ -67,26 +72,26 @@ app/
 
 ## 🚀 Getting Started
 
-### 1. Prerequisites
-Install **R** (and optionally **RStudio**), then install the required R packages:
+### Option 1: Open Online (No Installation Required)
+Access the hosted application directly on **Posit Connect Cloud**:  
+🔗 **[Launch 2025 F1 Telemetry Explorer](https://01a1b17b-fb15-3a53-b61a-bb8238083ff3.share.connect.posit.cloud/)**
 
-```r
-install.packages(c("shiny", "readr", "ggplot2", "vioplot"))
-```
+### Option 2: Run Locally in R / RStudio
+1. Install the required R packages:
+   ```r
+   install.packages(c("shiny", "readr", "ggplot2", "vioplot"))
+   ```
+2. Launch either the **Classic UI** (in `app/`) or the **F1 Telemetry Dashboard UI** (in `app/pro_ui/`):
+   ```r
+   library(shiny)
 
-### 2. Run the Application
-You can launch either the **Classic UI** (in `app/`) or the **F1 Telemetry Dashboard UI** (in `app/pro_ui/`):
+   # Launch the Classic Single-Page UI
+   runApp("path/to/app")
 
-```r
-library(shiny)
-
-# Option A: Launch the Classic Single-Page UI
-runApp("path/to/app")
-
-# Option B: Launch the Modern Tabbed F1 Dashboard UI
-runApp("path/to/app/pro_ui")
-```
-*(Alternatively, open either `app/ui.R` or `app/pro_ui/ui.R` in RStudio and click **Run App**).*
+   # Launch the Modern Tabbed F1 Dashboard UI
+   runApp("path/to/app/pro_ui")
+   ```
+   *(Alternatively, open either `app/ui.R` or `app/pro_ui/ui.R` in RStudio and click **Run App**).*
 
 ---
 
