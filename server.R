@@ -147,6 +147,10 @@ server = function(input, output, session) {
       y_limits = NULL   # NULL tells R to use its default [min, max] scale
     }
 
+    # Add extra right margin to place legends outside the plot area
+    old_par = par(mar = c(5.1, 4.1, 4.1, 9.5))
+    on.exit(par(old_par))
+
     plot(lap_data$LapNumber, lap_data$LapTime_sec,
          bg       = point_colors,
          col      = "black",
@@ -165,12 +169,23 @@ server = function(input, output, session) {
       }
     }
 
-    # compound legend
-    legend("topright", legend = names(COMPOUND_COLORS),
-           pt.bg = COMPOUND_COLORS, pch = 21, pt.cex = 1.3)
-    # lap type legend (rug colors)
-    legend("topleft", legend = names(LAP_TYPE_COLORS),
-           col = LAP_TYPE_COLORS, pch = "|", pt.cex = 1.5, title = "Lap Type")
+    # Place both legends outside on the right (stacked vertically)
+    par(xpd = TRUE)
+    usr   = par("usr")
+    x_leg = usr[2] + 0.02 * (usr[2] - usr[1])
+
+    # 1. Compound legend (top right outside)
+    leg1 = legend(x = x_leg, y = usr[4],
+                  legend = names(COMPOUND_COLORS),
+                  pt.bg = COMPOUND_COLORS, pch = 21, pt.cex = 1.3,
+                  title = "Compound")
+
+    # 2. Lap Type legend (directly below Compound legend outside)
+    leg2_y = leg1$rect$top - leg1$rect$h - 0.05 * (usr[4] - usr[3])
+    legend(x = x_leg, y = leg2_y,
+           legend = names(LAP_TYPE_COLORS),
+           col = LAP_TYPE_COLORS, pch = "|", pt.cex = 1.5,
+           title = "Lap Type")
   })
   
   output$race_pace_plot = renderPlot({
@@ -238,4 +253,135 @@ server = function(input, output, session) {
     }
     
   })
+
+  # ============================================================
+  # RACE PACE SUMMARY STATS: Mean & Quartiles (Clean vs Contaminated)
+  # ============================================================
+  output$race_pace_stats = renderTable({
+    driver_result = selected_driver_data()
+    lap_data      = driver_result$laps
+
+    if (isTRUE(input$include_contamination)) {
+      selected_laps = lap_data
+      sample_label  = "All Laps (with Pit/SC/VSC)"
+    } else {
+      selected_laps = lap_data[lap_data$LapType == "Normal", ]
+      sample_label  = "Normal Laps Only"
+    }
+
+    x_vals = na.omit(selected_laps$LapTime_sec)
+    req(length(x_vals) > 0)
+
+    qs = quantile(x_vals, probs = c(0.25, 0.50, 0.75))
+
+    data.frame(
+      Sample      = sample_label,
+      Laps        = length(x_vals),
+      Mean        = round(mean(x_vals), 2),
+      Q1_25       = round(unname(qs[1]), 2),
+      Median_Q2   = round(unname(qs[2]), 2),
+      Q3_75       = round(unname(qs[3]), 2),
+      IQR         = round(IQR(x_vals), 2)
+    )
+  }, striped = TRUE, bordered = TRUE, hover = TRUE)
+
+  # ============================================================
+  # SIMPSON'S PARADOX: Overall Normal Laps vs Individual Stints
+  # ============================================================
+  output$simpson_plot = renderPlot({
+    driver_result = selected_driver_data()
+    lap_data      = driver_result$laps
+    driver_name   = driver_result$name
+
+    # Identify stints: each "PitOut" lap starts a new stint
+    lap_data$Stint = cumsum(lap_data$LapType == "PitOut") + 1
+
+    # Filter only Normal laps and exclude Lap 1 (standing start outlier)
+    normal_laps = lap_data[lap_data$LapType == "Normal" & lap_data$LapNumber > 1, ]
+    req(nrow(normal_laps) > 0)
+
+    all_stints = sort(unique(normal_laps$Stint))
+    n_panels   = 1 + length(all_stints) # 1 overall plot + 1 plot per stint
+
+    # Dynamic grid layout (like par(mfrow) in lesson0311.R)
+    n_cols  = min(n_panels, 2)
+    n_rows  = ceiling(n_panels / n_cols)
+    old_par = par(mfrow = c(n_rows, n_cols))
+    on.exit(par(old_par))
+
+    # --- 1. GENERAL PLOT (All Normal Laps, identical dots) ---
+    plot(normal_laps$LapNumber, normal_laps$LapTime_sec,
+         pch  = 19,
+         col  = "black",
+         cex  = 1.2,
+         xlab = "Lap",
+         ylab = "Lap Time (sec)",
+         main = paste("Overall Normal Laps -", driver_name))
+
+    if (isTRUE(input$show_simpson_lm) && nrow(normal_laps) >= 2) {
+      lm_tot = lm(LapTime_sec ~ LapNumber, data = normal_laps)
+      abline(lm_tot, col = "red", lwd = 2)
+    }
+
+    # --- 2. INDIVIDUAL STINT PLOTS (One plot per stint, colored by tyre compound) ---
+    for (s in all_stints) {
+      stint_df       = normal_laps[normal_laps$Stint == s, ]
+      stint_compound = stint_df$Compound[1]
+      stint_colors   = unname(COMPOUND_COLORS[stint_df$Compound])
+
+      plot(stint_df$LapNumber, stint_df$LapTime_sec,
+           pch  = 21,
+           bg   = stint_colors,
+           col  = "black",
+           cex  = 1.3,
+           xlab = "Lap",
+           ylab = "Lap Time (sec)",
+           main = paste0("Stint ", s, " (", stint_compound, ")"))
+
+      if (isTRUE(input$show_simpson_lm) && nrow(stint_df) >= 2) {
+        lm_stint = lm(LapTime_sec ~ LapNumber, data = stint_df)
+        abline(lm_stint, col = "red", lwd = 2)
+      }
+    }
+  })
+
+  # ============================================================
+  # SIMPSON'S PARADOX CORRELATION TABLE (like lesson0311.R)
+  # ============================================================
+  output$simpson_table = renderTable({
+    driver_result = selected_driver_data()
+    lap_data      = driver_result$laps
+
+    lap_data$Stint = cumsum(lap_data$LapType == "PitOut") + 1
+    normal_laps    = lap_data[lap_data$LapType == "Normal" & lap_data$LapNumber > 1, ]
+    req(nrow(normal_laps) > 0)
+
+    all_stints = sort(unique(normal_laps$Stint))
+
+    # Overall correlation
+    cor_tot = if (nrow(normal_laps) >= 2) cor(normal_laps$LapNumber, normal_laps$LapTime_sec, use = "complete.obs") else NA
+
+    groups       = c("Overall (All Normal Laps)")
+    compounds    = c(paste(unique(normal_laps$Compound), collapse = " -> "))
+    laps_count   = c(nrow(normal_laps))
+    correlations = c(cor_tot)
+
+    # Correlation for each stint
+    for (s in all_stints) {
+      stint_df  = normal_laps[normal_laps$Stint == s, ]
+      cor_stint = if (nrow(stint_df) >= 2) cor(stint_df$LapNumber, stint_df$LapTime_sec, use = "complete.obs") else NA
+
+      groups       = c(groups, paste("Stint", s))
+      compounds    = c(compounds, stint_df$Compound[1])
+      laps_count   = c(laps_count, nrow(stint_df))
+      correlations = c(correlations, cor_stint)
+    }
+
+    data.frame(
+      Group       = groups,
+      Compound    = compounds,
+      Normal_Laps = laps_count,
+      Correlation = round(correlations, 3)
+    )
+  }, striped = TRUE, bordered = TRUE, hover = TRUE)
 }

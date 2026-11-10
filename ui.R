@@ -28,8 +28,14 @@ ui = fluidPage(
                                     choiceValues = c("SJ", "nrd0"),
                                     choiceNames  = c("Sheather-Jones (bw.SJ)", "Silverman Rule-of-Thumb (bw.nrd0)")),
                        sliderInput("bandwidth", "Choose the bandwidth multiplier (adjust): ", min = 0.1, max = 3, value = 1, step = 0.1),
-                       checkboxInput("show_individual_kernels", "Show individual kernel contributions (Teaching View)", value = FALSE),
-                       checkboxInput("include_contamination", "Include Pit/SC/VSC laps (Contaminated sample)", value = FALSE)
+                       checkboxInput("show_individual_kernels", "Show individual kernel contributions", value = FALSE),
+                       checkboxInput("include_contamination", "Include Pit/SC/VSC laps", value = FALSE),
+                       tableOutput("race_pace_stats")
+                       ),
+      conditionalPanel("input.show_driver_btn > 0",
+                       plotOutput("simpson_plot", height = "550px"),
+                       checkboxInput("show_simpson_lm", "Show linear regression lines (lm)", value = FALSE),
+                       tableOutput("simpson_table")
                        )
     )
   )
